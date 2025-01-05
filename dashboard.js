@@ -79,8 +79,7 @@ function readPlan(data){
   function readUserData() {
 var username = document.getElementById("username");
 var address = document.getElementById("address");
-var balance = document.getElementById("balance");
-var referrals = document.getElementById("referralID");
+
 
 
 const user = firebase.auth().currentUser;
