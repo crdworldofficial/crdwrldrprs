@@ -103,7 +103,7 @@ async function signup(username, address, email, password) {
     // Store user data in local storage and navigate
     localStorage.setItem('currentUsername', username);
     localStorage.setItem('userId', user.uid);
-    window.location.href = 'update.html';
+    window.location.href = 'dashboard.html';
   } catch (error) {
     throw error;
   }
